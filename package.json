@@ -4,11 +4,24 @@
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
-    "start": "sirv public"
+    "start": "sirv public",
+    "predeploy": "rollup -c",
+    "deploy": "gh-pages -d public"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rajat-panwar/unleash-svelte.git"
+  },
+  "keywords": [
+    "Svelte",
+    "WebDev",
+    "JavaScript"
+  ],
+  "homepage": "https://rajat-panwar.github.io/unleash-svelte/",
   "devDependencies": {
     "@rollup/plugin-commonjs": "11.0.2",
     "@rollup/plugin-node-resolve": "^7.0.0",
+    "eslint": "^6.8.0",
     "rollup": "^1.20.0",
     "rollup-plugin-livereload": "^1.0.0",
     "rollup-plugin-svelte": "^5.0.3",
@@ -16,6 +29,7 @@
     "svelte": "^3.0.0"
   },
   "dependencies": {
-    "sirv-cli": "^0.4.4"
+    "sirv-cli": "^0.4.4",
+    "gh-pages": "2.1.1"
   }
 }
