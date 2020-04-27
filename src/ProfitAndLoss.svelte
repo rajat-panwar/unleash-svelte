@@ -14,10 +14,10 @@
             justify-content: space-between; margin: 20px 0;">
     <div style="flex: 1; text-align: center; border-right: 1px solid #dedede;">
         <h4 style="text-transform: uppercase; margin: 0px;">Income</h4>
-        <p style="color: #2ecc71; display: flex; justify-content: center"><img src={'/icons8-rupee-green.png'} style="height: 16px; width: 16px;" alt="Rupee icon"/>{amountWithCommaAppend(Profit) || 0.00}</p>
+        <p style="color: #2ecc71; display: flex; justify-content: center"><img src={'./icons8-rupee-green.png'} style="height: 16px; width: 16px;" alt="Rupee icon"/>{amountWithCommaAppend(Profit) || 0.00}</p>
     </div>
     <div style="flex: 1; textAlign: center;">
         <h4 style="text-transform: uppercase; margin: 0px;">Expense</h4>
-        <p style="color: #c0392b; display: flex; justify-content: center"><img src={'/icons8-rupee-red.png'} style="height: 16px; width: 16px;" alt="Rupee icon"/>{amountWithCommaAppend(Math.abs(Loss)) || 0.00}</p>
+        <p style="color: #c0392b; display: flex; justify-content: center"><img src={'./icons8-rupee-red.png'} style="height: 16px; width: 16px;" alt="Rupee icon"/>{amountWithCommaAppend(Math.abs(Loss)) || 0.00}</p>
     </div>  
 </div>

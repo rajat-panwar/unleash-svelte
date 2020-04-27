@@ -35,6 +35,6 @@
 </style>
 <div>
     <li style={profit ? plus : minus}>
-        {transaction.text} <span style="display: flex; justify-content: center"><img src={profit ? '/icons8-rupee-green.png' : '/icons8-rupee-red.png'} style="height: 16px; width: 16px;" alt="Rupee icon"/>{amountWithCommaAppend(Math.abs(transaction.amount))}</span><button  on:click={() => deleteTransaction(transaction.id) } class="delete-btn">x</button>
+        {transaction.text} <span style="display: flex; justify-content: center"><img src={profit ? './icons8-rupee-green.png' : './icons8-rupee-red.png'} style="height: 16px; width: 16px;" alt="Rupee icon"/>{amountWithCommaAppend(Math.abs(transaction.amount))}</span><button  on:click={() => deleteTransaction(transaction.id) } class="delete-btn">x</button>
     </li>
 </div>

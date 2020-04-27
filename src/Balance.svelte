@@ -13,5 +13,5 @@
 </style>
 <div>
     <h4 style="text-transform: uppercase; margin: 0px;">Your Balance</h4>
-    <h1 style="letter-spacing: 1px; margin: 0px; display: flex; justify-content: center"><img src={'/icons8-rupee-96.png'} style="height: 32px; width: 32px;" alt="Rupee icon"/>{amountWithCommaAppend(Balance)}</h1>
+    <h1 style="letter-spacing: 1px; margin: 0px; display: flex; justify-content: center"><img src={'./icons8-rupee-96.png'} style="height: 32px; width: 32px;" alt="Rupee icon"/>{amountWithCommaAppend(Balance)}</h1>
 </div>
